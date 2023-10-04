@@ -1,10 +1,10 @@
 import { ListItemContainer } from "../kit";
 import { EmployeeFullName } from "./EmployeeFullName";
-import { EmployeeAvatart } from "./EmployeeAvatart";
+import { EmployeeAvatar } from "./EmployeeAvatar";
 
 export const EmployeeCard = () => (
   <ListItemContainer>
-    <EmployeeAvatart />
+    <EmployeeAvatar />
     <EmployeeFullName />
   </ListItemContainer>
 );

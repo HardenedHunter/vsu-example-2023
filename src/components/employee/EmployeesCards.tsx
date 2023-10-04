@@ -6,11 +6,11 @@ import { EmployeeCard } from "./EmployeeCard";
 import { EmployeeContext } from "~/contexts";
 import { type GetServerSideProps } from "next";
 
-export const getServerSideProps = (async (context) => {
-  const res = await fetch("https://api.github.com/repos/vercel/next.js");
-  const repo = await res.json();
-  return { props: {} };
-}) satisfies GetServerSideProps<MyDataType>;
+// export const getServerSideProps = (async (context) => {
+//   const res = await fetch("https://api.github.com/repos/vercel/next.js");
+//   const repo = await res.json();
+//   return { props: {} };
+// }) satisfies GetServerSideProps<MyDataType>;
 
 export const EmployeesCards = () => {
   const { isLoading, data: users, error } = useEmployeesData();
