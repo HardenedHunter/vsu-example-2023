@@ -75,7 +75,7 @@ _Наверное, самая сложная и абстрактная част�
 **Параметры:**
 
 - `page: number`
-- `category: Category | undefind`
+- `category: Category | undefined`
 - `countPerPage: number | undefined`
 - `orderBy: SortingKey | undefined`
 
