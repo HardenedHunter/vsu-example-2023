@@ -14,18 +14,18 @@
         Вы взрослые люди и в состоянии найти информацию в интернете, если ещё не научились пользоваться распределенными системами контроля версий.
         https://docs.github.com/ru/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository
    </details>
-
-3. В директории `projects-description` создать файл вида `Name-Surname.md` аналогично [примеру](projects-description/Viktor-Reshetov.md)
-4. Создать commit с изменениями и сделать push
+3. Создать ветку `project/name-surname`
+4. В директории `projects-description` создать файл вида `Name-Surname.md` аналогично [примеру](projects-description/Viktor-Reshetov.md)
+5. Создать commit изменений с именем вида `Имя Фамилия: Добавил описание проекта" и сделать push в ваш форк
    <details>
    <summary>Как отправлять изменения в удаленный репозиторий?</summary>
         Вы взрослые люди и в состоянии найти информацию в интернете, если ещё не научились пользоваться распределенными системами контроля версий.
         https://docs.github.com/ru/get-started/using-git/pushing-commits-to-a-remote-repository
    </details>
-5. Создать pull request в репозиторий курс с вашими изменениями из форка
+6. Создать pull request в репозиторий курс с вашими изменениями из форка
    <details>
    <summary>Как отправлять изменения в удаленный репозиторий?</summary>
         Вы взрослые люди и в состоянии найти информацию в интернете, если ещё не научились пользоваться распределенными системами контроля версий.
         https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
    </details>
-6. Ожидать code review или merge в main
+7. Ожидать code review или merge в main
