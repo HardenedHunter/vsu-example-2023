@@ -72,6 +72,8 @@
      - **Параметры**:
        - `page`: number (номер страницы)
        - `category`: Category[] | undefined (категория вакансии)
+       - `slaryLower`: number | undefined (нижняя граница зарплаты)
+       - `salaryUpper`: number | undefined (верхняя граница зарплаты)
        - `company`: string[] | undefined (название компании)
        - `location`: Location[] | undefined (местоположение)
        - `orderBy`: SortingKey | undefined (ключ сортировки: "date", "title", "company")
