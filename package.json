@@ -1,0 +1,17 @@
+{
+    "name": "vsu-example-2023",
+    "version": "1.0.0",
+    "repository": "ssh://git@github.com:HardenedHunter/vsu-example-2023.git",
+    "private": true,
+    "scripts": {
+      "build": "next build",
+      "dev": "bash ./scripts/dev.sh",
+      "lint": "next lint",
+      "start": "next start"
+    },
+    "workspaces": [
+      "frontend/*",
+      "backend/*"
+    ]
+  }
+  
