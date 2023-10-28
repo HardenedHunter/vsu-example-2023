@@ -28,4 +28,4 @@
 ## Стек
 
 [Клиент](./frontend/README.md): TypeScript, React, Next.js, Tailwind.css
-[Сервер](./backend/README.md): TypeScript, Fastify
+[Сервер](./backend/README.md): TypeScript, [Fastify](https://fastify.dev/), [Node-Tap](https://node-tap.org/)

@@ -7,11 +7,9 @@
       "build": "next build",
       "dev": "bash ./scripts/dev.sh",
       "lint": "next lint",
-      "start": "next start"
-    },
-    "workspaces": [
-      "frontend/*",
-      "backend/*"
-    ]
+      "start": "next start",
+      "install": "bash ./scripts/install.sh",
+      "bootstrap": "bash ./scripts/bootstrap.sh"
+    }
   }
   
