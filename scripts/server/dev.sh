@@ -1,3 +1,7 @@
 #!/bin/bash
 
-echo "server on call"
+echo "Отдаем dev команду в Fastify"
+
+cd ./backend
+
+npm run dev
