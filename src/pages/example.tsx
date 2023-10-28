@@ -1,9 +1,3 @@
-import { EmployeesCards, PageLayout } from "~/components/";
-
-const Example = () => (
-  <PageLayout>
-    <EmployeesCards />
-  </PageLayout>
-);
+const Example = () => null;
 
 export default Example;
