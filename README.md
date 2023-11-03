@@ -44,7 +44,7 @@
 
 **Параметры:**
 
-- `page: number
+- `page: number`
 - `category: Category | undefined`
 - `countPerPage: number | undefined`
 - `orderBy: SortingKey | undefined`
